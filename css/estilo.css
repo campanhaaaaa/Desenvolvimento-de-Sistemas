@@ -1,0 +1,31 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aquamarine;
+}
+
+h1{text-align: center;}
+
+section{width: 400px;}
+
+/*FORMATANTO O BLOCO 1*/
+.Bloco1 p{color: blueviolet;}
+.Bloco1 > p{text-decoration: line-through; text-align: end;}
+
+.Bloco1{border-width: 10px;
+        border-color: red;
+        border-style: solid;
+        box-sizing:border-box ;
+        padding-top: 10px;
+        padding-bottom: 50px;
+
+        
+
+}
+
+.Bloco2{
+    border: 2px solid green; 
+    
+    padding: 40px;
+    box-sizing: border-box;
+    
+}
