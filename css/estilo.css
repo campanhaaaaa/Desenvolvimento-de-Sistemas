@@ -29,3 +29,8 @@ section{width: 400px;}
     box-sizing: border-box;
     
 }
+
+.Bloco2 + p{
+    text-transform: uppercase;
+    color: brown;
+}/* O seletor +irá formatar o elememto exatamente após o seletor que usamos como referencia nesse caso é o bloco 2.*/
