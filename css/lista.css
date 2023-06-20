@@ -1,0 +1,30 @@
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+h1{
+    text-align: center;
+    color: darkgreen;
+
+}
+
+.ingredientes, .preparo{
+    background-color: lightcyan;
+    height: 400px;
+}
+ .ingredientes>h2, .preparo>h2{
+    background-color: darkcyan;
+    color: white;
+    text-align: center;
+    padding: 10px;
+ }
+
+ .ingredientes ul li, .preparo ol li{
+    font-size: 18px; 
+    line-height: 0.8cm;
+
+}
+::selection{background-color: chartreuse;}
