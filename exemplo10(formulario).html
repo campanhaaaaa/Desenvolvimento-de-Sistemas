@@ -14,12 +14,69 @@
         <fieldset>
             <legend>Cadastro</legend>
             <label for="nome">Seu nome</label>
-            <input type="text" name="nome" id="nome">
+            <input type="text" name="nome" id="nome" placeholder="insira seu nome completo" maxlength="10">
+            <br>
     
             <label for="senha">sua senha
-                <input type="password" name="" id="">
+                <input type="password" name="senha" id="senha">
             </label>
+
+            <label for="">Qual o seu estilo musical?</label>
+            <br>
+
+            <input type="checkbox" name="musica" id="Pagode" value="Pagode">
+            <label for="Pagode">Pagode</label>
+            <br>
+
+            <input type="checkbox" name="musica" id="Raggae" value="Raggae">
+            <label for="Raggae">Raggae</label>
+            <br>
+
+            <input type="checkbox" name="musica" id="Forró" value="Forró">
+            <label for="Forró">Forró</label>
+            <br>
+
+            <label for="">Como está o seu dia?</label>
+            <br>
+
+            <input type="radio" name="dia" id="otimo" value="otimo">
+            <label for="otimo">otimo</label>
+            <br>
+
+            <input type="radio" name="coisa" id="ruim" value="ruim">
+            <label for="ruim">ruim</label>
+            <br>
+
+            <input type="radio" name="dia" id="bom" value="bom">
+            <label for="bom">bom</label>
+            <br>
+
+            <label for="">Escolha seu estado</label>
+            <br>
+            <select name="estado" id="estado">
+                <option value="">Escolha um Estado...</option>
+                <option value="MA">Maranhão</option>
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+            </select>
+            <br>
+
+            <label for="mensagem">Deixe uma mensagem</label>
+            <br>
+            <textarea name="mensagem" id="mensagem"></textarea>
+            <br>
+
+            <label for="">Envie um Arquivo</label>
+            <input type="file" name="arquivo" id="arquivo" accept="image/*">
+            <br>
+
+            <section class="btn">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+                <button type="">Botão</button>
+            </section>          
         </fieldset>
+        
        
 
     </form>

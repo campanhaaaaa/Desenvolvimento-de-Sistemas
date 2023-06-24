@@ -14,9 +14,11 @@ form{
     padding: 10px; 
     margin: 0 auto;
     border-radius: 15px;
+    
 }
 
-input{
+
+input, select, textarea{
     width: 100%; 
     padding: 10px;
     margin: 10px 0;
@@ -25,4 +27,20 @@ input{
     border: 1px solid gray;
 }
 
-input:focus{box-shadow: 0 0 10px black;}
+input[type=checkbox], input[type=radio]{
+    width: 5%;
+}
+
+
+input[type=text]:focus, input[type=password]:focus{
+    box-shadow: 0 0 10px black;
+}
+
+legend{
+    text-align: center;
+}
+
+textarea{height: 150px; resize: none;}
+
+
+
