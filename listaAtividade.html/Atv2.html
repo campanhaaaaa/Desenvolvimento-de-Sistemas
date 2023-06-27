@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/Formularioatv.css">
+    <title>Trabalhando com Formulário</title>
+</head>
+<body>
+    <h1>Pedido Online</h1>
+
+    <form>
+        <fieldset class="cor1">
+            <legend>Informações do Cliente</legend>
+            <label for="nome">Nome:</label><br>
+            <input type="text" name="nome" id="nome" placeholder="Informe seu nome com 50 caracteres"> 
+            <br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" id="email" placeholder="ex email@email.com">
+            <br>
+
+            <label for="telefone">Telefone:</label><br>
+            <input type="number" name="Telefone" id="Telefone" placeholder="(98)988082636">
+            <br>
+            
+
+            
+
+        </fieldset>
+
+        <fieldset class="cor2">
+            <legend>Itens do Pedido</legend>
+            
+            
+            <label for="Pizza">Pizza</label>
+            <input type="checkbox" name="Pedido" id="Pizza" value="Pizza">
+            <br>
+            
+            <label for="Hamburguer">Hamburguer</label>
+            <input type="checkbox" name="Pedido" id="Hamburguer" value="Hamburguer">
+            <br>
+            
+            <label for="Sorverte">Sorverte</label>
+            <input type="checkbox" name="Pedido" id="Sorverte" value="Sorverte">
+            <br>
+
+            
+        </fieldset>
+
+        <fieldset class="cor3">
+            <legend>Informações do Cartão</legend>
+            <label for="N do Cartão">N do Cartão:</label><br>
+            <input type="number" name="N do Cartão " id="N do Cartão" placeholder="9999.9999.9999.9999">
+            <br>
+            <label for="Nome do Cartão">Nome do Cartão:</label><br>
+            <input type="text" name="Nome do Cartão" id="Nome do Cartão">
+            <br>
+            <label for="Data de nascimento:">Data de nascimento:</label><br>
+            <input type="date" name="nascimento:" id="nascimento">
+            <br>
+            <label for="CVV:">CVV:</label><br>
+            <input type="text" name="CVV:" id="CVV">
+
+        </fieldset>
+
+        <Fieldset class="cor4">
+            <legend>Observações</legend>
+            <textarea name="mensagem" id="mensagem" placeholder="Informe se deseja acrecentar ou retirar alguma coisa do pedido, ou qualquer outra informação"></textarea>
+            <br>
+
+            
+        </Fieldset>
+        <br>
+
+        <section class="btn">
+           
+            <button type="">Confirma Pedido</button>
+            
+        </section>
+        <br>
+
+    </form>
+</body>
+</html>
